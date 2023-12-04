@@ -36,3 +36,9 @@
     margin-top: 20px; /* Spațiu între imagine și conținutul principal */
   }
   
+  /* Stil pentru a face imaginea să fie responsive */
+.visit-city .image-overlay img {
+    max-width: 100%;
+    height: auto;
+  }
+  
