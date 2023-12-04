@@ -1,11 +1,4 @@
-/* Stilurile pentru imagine și textul pe imagine */
-.visit-city {
-    position: relative;
-    text-align: center;
-  }
-  
-  .image-overlay {
-    display: inline-block;
+.image-overlay {
     position: relative;
   }
   
@@ -16,29 +9,25 @@
     transition: opacity 0.5s ease;
   }
   
+  .image-overlay:hover img {
+    opacity: 0.5;
+  }
   .text-on-image {
+    font-style: bold;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
-    color: white;
+    color: black;
     opacity: 0;
     transition: opacity 0.3s ease;
+    font-size: 40px;
+    font-weight: 700; /* Valoarea pentru un text și mai bold; poate fi ajustată între 400 și 900 */
   }
+  
   
   .image-overlay:hover .text-on-image {
     opacity: 1;
-  }
-  
-  main {
-    margin-top: 20px; /* Spațiu între imagine și conținutul principal */
-  }
-  
-  /* Stil pentru a face imaginea să fie responsive */
-.visit-city .image-overlay img {
-    max-width: 100%;
-    height: auto;
   }
   
