@@ -1,0 +1,38 @@
+/* Stilurile pentru imagine și textul pe imagine */
+.visit-city {
+    position: relative;
+    text-align: center;
+  }
+  
+  .image-overlay {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .image-overlay img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+  .text-on-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-overlay:hover .text-on-image {
+    opacity: 1;
+  }
+  
+  main {
+    margin-top: 20px; /* Spațiu între imagine și conținutul principal */
+  }
+  

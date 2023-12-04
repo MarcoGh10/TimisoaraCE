@@ -8,12 +8,14 @@ body, h1, h2, h3, p, ul, li, a {
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    margin: 10px;
   }
   
   header {
     background-color: #fdc40b;
     color: #fff;
     padding: 20px;
+    border-radius: 20px;
   }
   
   header h1 {
@@ -37,4 +39,6 @@ body, h1, h2, h3, p, ul, li, a {
     bottom: 0;
     width: 100%;
   }
+
+  
   
