@@ -1,0 +1,23 @@
+nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Stil pentru elementul activ */
+  nav a.active {
+    font-weight: bold;
+    /* Puteți schimba culoarea de fond sau culoarea textului pentru a evidenția elementul activ */
+  }
