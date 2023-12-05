@@ -17,6 +17,31 @@ document.addEventListener("DOMContentLoaded", function() {
         price: "75 RON",
         imageUrl: "url_imagini/eveniment2.jpg"
       },
+      {
+        name: "Nume eveniment 3",
+        location: "Locație 2",
+        date: "02-01-2023",
+        price: "75 RON",
+        imageUrl: "url_imagini/eveniment2.jpg"
+      },
+      {
+        name: "Nume eveniment 4",
+        location: "Locație 2",
+        date: "02-01-2023",
+        price: "75 RON",
+        imageUrl: "url_imagini/eveniment2.jpg"
+      },
+      {
+        name: "Nume eveniment 5",
+        location: "Locație 2",
+        date: "02-01-2023",
+        price: "75 RON",
+        imageUrl: "url_imagini/eveniment2.jpg"
+      },
+      
+
+
+
     ];
   
     function displayEvents(events) {
@@ -53,7 +78,6 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     }
   
-    // Afiseaza evenimentele
     displayEvents(eventsData);
   });
   

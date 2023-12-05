@@ -1,15 +1,14 @@
-/* Stil pentru containerul evenimentelor */
+
 #events-container {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     padding: 20px;
-    flex-wrap: nowrap; /* Afișează cardurile pe un singur rând */
-    overflow-x: auto; /* Adaugă bară de derulare orizontală în cazul unui număr mare de carduri */
-    gap: 20px; /* Spațiere între carduri */
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+    gap: 20px;
   }
   
-  /* Stil pentru cardurile de eveniment */
   .event-card {
     position: relative;
     width: 300px;
@@ -28,19 +27,19 @@
   
   .event-card .event-details {
     position: absolute;
-    top: 100%; /* Păstrează detaliile în afara vizualului inițial */
+    top: 100%; 
     width: 100%;
     background: rgba(255, 255, 255, 0.9);
     padding: 10px;
     transition: top 0.3s ease;
     opacity: 0;
-    pointer-events: none; /* Împiedică interacțiunea cu detaliile înainte de hover */
+    pointer-events: none; 
   }
   
   .event-card:hover .event-details {
     top: 0;
     opacity: 1;
-    pointer-events: auto; /* Permite interacțiunea cu detaliile la hover */
+    pointer-events: auto; 
   }
   
   .event-card:hover img {
