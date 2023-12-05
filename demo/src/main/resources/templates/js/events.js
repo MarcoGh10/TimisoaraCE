@@ -38,10 +38,6 @@ document.addEventListener("DOMContentLoaded", function() {
         price: "75 RON",
         imageUrl: "url_imagini/eveniment2.jpg"
       },
-      
-
-
-
     ];
   
     function displayEvents(events) {
