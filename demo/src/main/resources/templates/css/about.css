@@ -1,0 +1,26 @@
+
+p {
+    font-size: 16px; 
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+    text-indent: 20px;
+  }
+  
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efect de tranziție la schimbarea culorii */
+}
+
+/* Stil pentru hover la buton */
+.button:hover {
+    background-color: #f8d122; /* Schimbarea culorii la hover */
+}
