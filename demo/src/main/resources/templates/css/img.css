@@ -1,19 +1,21 @@
-.image-overlay {
+.image-overlay .img-container {
     position: relative;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  .image-overlay img {
+  .img-container img {
     width: 100%;
     height: auto;
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: filter 0.5s ease; /* Adăugare tranziție pentru filtrul de blur */
   }
   
-  .image-overlay:hover img {
-    opacity: 0.5;
-  }
+  /* Stil pentru textul de pe imagine */
   .text-on-image {
-    font-style: bold;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,11 +25,32 @@
     opacity: 0;
     transition: opacity 0.3s ease;
     font-size: 40px;
-    font-weight: 700; /* Valoarea pentru un text și mai bold; poate fi ajustată între 400 și 900 */
+    font-weight: 700;
   }
-  
-  
-  .image-overlay:hover .text-on-image {
+  .img-container:hover .text-on-image {
     opacity: 1;
   }
   
+  /* Stil pentru lista de locații */
+  .locations {
+    position: absolute;
+    top: 0;
+    right: -400px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    transition: right 0.3s ease;
+  }
+  
+  .locations h3 {
+    margin-top: 0;
+  }
+  
+  .image-overlay:hover .locations {
+    right: 0;
+  }
+  
+  .image-overlay:hover .img-container img {
+    filter: blur(5px);
+  }

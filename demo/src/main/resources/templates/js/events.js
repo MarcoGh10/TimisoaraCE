@@ -11,18 +11,18 @@ document.addEventListener("DOMContentLoaded", function() {
         imageUrl: "img/luna.jpg"
       },
       {
-        name: "Nume eveniment 2",
-        location: "Locație 2",
-        date: "02-01-2023",
-        price: "75 RON",
-        imageUrl: "url_imagini/eveniment2.jpg"
+        name: "Roads through the Forest - workshops with Waldorf High School Timisoara",
+        location: "Waldorf Highschool Timișoara",
+        date: "05-12-2023",
+        price: "FREE",
+        imageUrl: "img/e2.jpg"
       },
       {
-        name: "Nume eveniment 3",
-        location: "Locație 2",
-        date: "02-01-2023",
-        price: "75 RON",
-        imageUrl: "url_imagini/eveniment2.jpg"
+        name: "Timișoara: Free City, Free Spirit | Budapest",
+        location: "-",
+        date: "05-12-2023",
+        price: "FREE",
+        imageUrl: "img/e3.jpg"
       },
       {
         name: "Nume eveniment 4",
