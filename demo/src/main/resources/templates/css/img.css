@@ -11,7 +11,7 @@
     width: 100%;
     height: auto;
     opacity: 1;
-    transition: filter 0.5s ease; /* Adăugare tranziție pentru filtrul de blur */
+    transition: filter 0.5s ease; 
   }
   
   /* Stil pentru textul de pe imagine */
